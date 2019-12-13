@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CloneApp</string>
+    <string name="webview_error"><html><body style='background: white;'><p style='color: red;'>Không thể tải trang! Vui lòng kiểm tra kết nối và thử lại!</p></body></html></string>
+    <string name="dialog_default_ok">Ok</string>
+    <string name="dialog_default_cancel">Cancel</string>
+    <string name="error_network_connection_error">disconect</string>
+    <string name="error_network">Net work error</string>
+    <string name="error">error</string>
+    <string name="android">Android</string>
+    <string name="snackbar_error_title">Error</string>
+</resources>

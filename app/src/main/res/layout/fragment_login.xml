@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:background="@color/main_red"
+        android:padding="@dimen/_50sdp"
+        android:src="@drawable/img_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="AGENT VERSION"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/logo"
+        app:layout_constraintEnd_toEndOf="@id/logo"
+        app:layout_constraintStart_toStartOf="@id/logo" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/ic_account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edAccount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="@null"
+        android:hint="Enter phone number"
+        android:textColor="@color/text_gray"
+        android:textColorHint="@color/text_gray"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imgAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/imgAccount"
+        app:layout_constraintTop_toTopOf="@id/imgAccount" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="@color/border"
+        app:layout_constraintEnd_toEndOf="@id/edAccount"
+        app:layout_constraintStart_toStartOf="@id/imgAccount"
+        app:layout_constraintTop_toBottomOf="@id/imgAccount" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imgPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/ic_key"
+        app:layout_constraintEnd_toEndOf="@id/imgAccount"
+        app:layout_constraintStart_toStartOf="@id/imgAccount"
+        app:layout_constraintTop_toBottomOf="@id/imgAccount" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edPass"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:hint="Enter pass"
+        android:inputType="numberPassword"
+        android:textColor="@color/text_gray"
+        android:textColorHint="@color/text_gray"
+        android:textSize="@dimen/_12sdp"
+        app:layout_constraintBottom_toBottomOf="@id/imgPass"
+        app:layout_constraintEnd_toEndOf="@id/edAccount"
+        app:layout_constraintStart_toStartOf="@id/edAccount"
+        app:layout_constraintTop_toTopOf="@id/imgPass" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:background="@color/border"
+        app:layout_constraintEnd_toEndOf="@id/edPass"
+        app:layout_constraintStart_toStartOf="@id/imgAccount"
+        app:layout_constraintTop_toBottomOf="@id/imgPass" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/actionLogin"
+        style="@style/button_default"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:background="@drawable/bgr_button_default"
+        android:text="LOGIN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edPass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

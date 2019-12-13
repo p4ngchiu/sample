@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/main_red</color>
+    <color name="colorPrimaryDark">@color/main_red</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="halation_red">#E50012</color>
+
+    <!-- Common -->
+    <color name="main_red">#E82529</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="text_gray">#505B59</color>
+    <!--    transfer-->
+    <color name="button_default">#00A79D</color>
+    <color name="button_default_tran">#C5DEDA</color>
+    <color name="border">#BFBFBF</color>
+    <color name="text_main_black">#51504F</color>
+    <color name="menu_text_default">#929292</color>
+    <color name="menu_text_selected">#EB2027</color>
+    <color name="transfer_hint">#505B59</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="bg_transfer">#E6E8EA</color>
+    <color name="dim">#50000000</color>
+
+    <color name="main_header_recent">#EFECEC</color>
+    <color name="main_header_text_color">#505B59</color>
+    <color name="vn_search_title">#666766</color>
+    <color name="vn_search_radio">#424143</color>
+
+    <color name="color_loading">#33000000</color>
+</resources>
